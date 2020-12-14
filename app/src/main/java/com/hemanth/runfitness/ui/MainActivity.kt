@@ -1,7 +1,8 @@
-package com.hemanth.runfitness
+package com.hemanth.runfitness.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.hemanth.runfitness.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
