@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RunFitness</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBl3tlMAKk2c6mqtWZKwue_PLwsber7wLU</string>
+</resources>
