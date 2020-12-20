@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">RunFitness</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBl3tlMAKk2c6mqtWZKwue_PLwsber7wLU</string>
+
+    <string-array name="filter_options">
+        <item>Date</item>
+        <item>Running Time</item>
+        <item>Distance</item>
+        <item>Average Speed</item>
+        <item>Calories Burned</item>
+    </string-array>
 </resources>
