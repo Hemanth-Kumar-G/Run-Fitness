@@ -19,3 +19,20 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+
+-keep class * extends androidx.lifecycle.ViewModel {
+    <init>();
+}
+-keep class * extends androidx.lifecycle.AndroidViewModel {
+    <init>(android.app.Application);
+}
+-keep class androidx.core.app.NotificationCompat**{ *;}
+-keep class com.google.android.gms.** { *; }
+-dontwarn com.google.android.gms.**
+
+-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+   public *;
+}
+
+-keepattributes SourceFile,LineNumberTable
